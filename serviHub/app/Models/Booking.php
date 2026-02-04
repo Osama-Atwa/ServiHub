@@ -4,9 +4,16 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+use App\Scopes\BusinessScope;
+
 class Booking extends Model
 {
     protected $fillable = ['business_id', 'service_id', 'staff_id', 'client_id', 'start_time', 'end_time', 'status', 'notes'];
+
+    protected static function booted(): void
+    {
+        static::addGlobalScope(new BusinessScope);
+    }
 
     protected $casts = [
         'start_time' => 'datetime',

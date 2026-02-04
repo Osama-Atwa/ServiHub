@@ -1,26 +1,26 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Business;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Inertia\Inertia;
 use Inertia\Response;
+use Illuminate\Http\RedirectResponse;
 
-class RegisteredUserController extends Controller
+class BusinessRegistrationController extends Controller
 {
     /**
      * Display the registration view.
      */
     public function create(): Response
     {
-        return Inertia::render('Auth/Register');
+        return Inertia::render('Auth/RegisterBusiness');
     }
 
     /**
@@ -31,6 +31,8 @@ class RegisteredUserController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $request->validate([
+            'business_name' => 'required|string|max:255',
+            'business_slug' => 'required|string|max:255|unique:businesses,slug',
             'name' => 'required|string|max:255',
             'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
@@ -40,8 +42,17 @@ class RegisteredUserController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'role' => 'client', // Explicitly set role to client
+            'role' => 'business_admin',
         ]);
+
+        $business = Business::create([
+            'name' => $request->business_name,
+            'slug' => $request->business_slug,
+            'status' => 'active', // Creating active by default for now
+        ]);
+
+        // Link User to Business as Owner
+        $business->users()->attach($user->id, ['role' => 'owner']);
 
         event(new Registered($user));
 

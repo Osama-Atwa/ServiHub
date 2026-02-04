@@ -61,4 +61,24 @@ class User extends Authenticatable
     {
         return $this->hasMany(Booking::class, 'client_id');
     }
+
+    public function isPlatformAdmin(): bool
+    {
+        return $this->role === 'platform_admin';
+    }
+
+    public function isBusinessAdmin(): bool
+    {
+        return $this->role === 'business_admin';
+    }
+
+    public function isStaff(): bool
+    {
+        return $this->role === 'staff';
+    }
+
+    public function isClient(): bool
+    {
+        return $this->role === 'client';
+    }
 }
