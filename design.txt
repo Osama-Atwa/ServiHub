@@ -1,0 +1,475 @@
+
+
+
+    
+    ServiHub – Complete Design &amp; Brand Guidelines
+
+    
+
+    
+    
+    1. Brand Overview
+
+    
+    Brand Name
+
+    ServiHub
+
+    
+    
+    Brand Meaning
+
+    ServiHub represents a centralized digital hub connecting clients with multiple service-based businesses through a unified booking marketplace.
+
+    
+    
+    Brand Personality
+
+    Professional
+
+    Modern SaaS
+
+    Trustworthy
+
+    Scalable
+
+    Friendly and approachable
+
+    
+
+    
+    
+    
+    2. Brand Taglines
+
+    Primary Tagline: “Your Hub for Service Bookings”
+
+    Alternative Taglines: - “Connecting Clients with Services” - “One Platform. Endless Services.” - “Where Services Meet Scheduling”
+
+    
+
+    
+    
+    3. Logo Design
+
+    
+    Logo Concept
+
+    The ServiHub logo represents connection and centralization through a hub-and-node visual system.
+
+    
+    Symbol Meaning
+
+    Center Circle = Platform Core
+
+    Outer Nodes = Businesses
+
+    Connection Lines = Marketplace Ecosystem
+
+    
+
+    
+    
+    
+    Primary Logo
+
+    Icon + Text layout
+
+    Text emphasis on “Hub”
+
+    
+
+    
+    
+    Logo SVG
+
+    &lt;svg width=&quot;220&quot; height=&quot;60&quot; viewBox=&quot;0 0 220 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;  &lt;circle cx=&quot;30&quot; cy=&quot;30&quot; r=&quot;10&quot; fill=&quot;#4F46E5&quot;/&gt;  &lt;circle cx=&quot;10&quot; cy=&quot;30&quot; r=&quot;4&quot; fill=&quot;#14B8A6&quot;/&gt;  &lt;circle cx=&quot;30&quot; cy=&quot;10&quot; r=&quot;4&quot; fill=&quot;#14B8A6&quot;/&gt;  &lt;circle cx=&quot;50&quot; cy=&quot;30&quot; r=&quot;4&quot; fill=&quot;#14B8A6&quot;/&gt;  &lt;circle cx=&quot;30&quot; cy=&quot;50&quot; r=&quot;4&quot; fill=&quot;#14B8A6&quot;/&gt;  &lt;line x1=&quot;30&quot; y1=&quot;30&quot; x2=&quot;10&quot; y2=&quot;30&quot; stroke=&quot;#4F46E5&quot; stroke-width=&quot;2&quot;/&gt;  &lt;line x1=&quot;30&quot; y1=&quot;30&quot; x2=&quot;30&quot; y2=&quot;10&quot; stroke=&quot;#4F46E5&quot; stroke-width=&quot;2&quot;/&gt;  &lt;line x1=&quot;30&quot; y1=&quot;30&quot; x2=&quot;50&quot; y2=&quot;30&quot; stroke=&quot;#4F46E5&quot; stroke-width=&quot;2&quot;/&gt;  &lt;line x1=&quot;30&quot; y1=&quot;30&quot; x2=&quot;30&quot; y2=&quot;50&quot; stroke=&quot;#4F46E5&quot; stroke-width=&quot;2&quot;/&gt;  &lt;text x=&quot;70&quot; y=&quot;38&quot; font-family=&quot;Poppins, Arial&quot; font-size=&quot;24&quot; fill=&quot;#1F2933&quot;&gt;    Servi&lt;tspan font-weight=&quot;700&quot;&gt;Hub&lt;/tspan&gt;  &lt;/text&gt;&lt;/svg&gt;
+
+    
+
+    
+    
+    
+    4. Color Palette
+
+    
+    Primary Color
+
+    Indigo Blue
+
+    HEX: #4F46E5 Usage: - Primary buttons - Links - Active states - Logo highlight
+
+    
+
+    
+    
+    Secondary Accent
+
+    Teal
+
+    HEX: #14B8A6 Usage: - Secondary actions - Highlights - Success states
+
+    
+
+    
+    
+    Neutral Colors
+
+    Dark Text: #1F2933
+
+    Light Background: #F8FAFC
+
+    Border / Divider: #E5E7EB
+
+    
+
+    
+    
+    
+    5. Typography
+
+    
+    Primary Font
+
+    Inter
+
+    
+    
+    Secondary Font
+
+    Poppins
+
+    
+
+    
+    
+    Typography Hierarchy
+
+    Heading 1 - Size: 32px - Weight: Bold
+
+    Heading 2 - Size: 24px - Weight: Semi Bold
+
+    Body Text - Size: 16px - Weight: Regular
+
+    Small Text - Size: 14px
+
+    
+
+    
+    
+    
+    6. UI Design Principles
+
+    Clean SaaS layout
+
+    Generous whitespace
+
+    Rounded components
+
+    Soft shadows
+
+    Clear information hierarchy
+
+    
+
+    
+    
+    7. Layout Structure
+
+    
+    Main Navigation
+
+    Left Sidebar Navigation
+
+    Top Navigation Bar
+
+    
+
+    
+    
+    
+    8. Marketplace Pages
+
+    
+    Homepage
+
+    Business search bar
+
+    Category filters
+
+    Featured businesses
+
+    Trending services
+
+    
+
+    
+    
+    Business Listing Page
+
+    Business cards grid
+
+    Filtering by:
+
+    Category
+
+    Rating
+
+    Location
+
+    
+
+    
+    
+    Business Profile Page
+
+    Business details
+
+    Service list
+
+    Staff selection
+
+    Booking calendar
+
+    
+
+    
+    
+    
+    9. Dashboard Design
+
+    
+    Business Dashboard
+
+    KPI Cards
+
+    Booking Calendar
+
+    Staff Management
+
+    Service Management
+
+    
+
+    
+    
+    Client Dashboard
+
+    Booking history
+
+    Favorite businesses
+
+    Notifications
+
+    
+
+    
+    
+    Platform Admin Dashboard
+
+    Total businesses
+
+    Total bookings
+
+    Revenue analytics
+
+    Subscription management
+
+    
+
+    
+    
+    
+    10. UI Components
+
+    
+    Buttons
+
+    Primary
+
+    Secondary
+
+    Outline
+
+    Danger
+
+    
+
+    
+    
+    Cards
+
+    Used for: - Business display - Booking summaries - Analytics
+
+    
+
+    
+    
+    Calendar Component
+
+    Monthly view
+
+    Weekly view
+
+    Daily time slots
+
+    
+
+    
+    
+    Forms
+
+    Rounded input fields
+
+    Floating labels (optional)
+
+    Inline validation
+
+    
+
+    
+    
+    
+    11. Icon Style
+
+    Recommended Library: Lucide Icons or Heroicons
+
+    Icon Style: - Line based - Minimal - Rounded edges
+
+    
+
+    
+    
+    12. Dark Mode Theme
+
+    
+    Dark Background
+
+    #111827
+
+    
+    
+    Card Background
+
+    #1F2937
+
+    
+    
+    Text
+
+    #F9FAFB
+
+    Primary and accent colors remain unchanged.
+
+    
+
+    
+    
+    
+    13. Favicon
+
+    Use hub circle and node icon only.
+
+    
+
+    
+    
+    14. Landing Page Sections
+
+    Hero Section
+
+    Platform Benefits
+
+    How It Works
+
+    Business Categories
+
+    Testimonials (Optional)
+
+    Call to Action
+
+    
+
+    
+    
+    15. Animation Guidelines
+
+    Smooth transitions
+
+    Hover scaling
+
+    Loading spinners using hub icon
+
+    
+
+    
+    
+    16. Responsive Design Rules
+
+    Mobile First Approach
+
+    Breakpoints: - Mobile: &lt; 640px - Tablet: 640px – 1024px - Desktop: &gt; 1024px
+
+    
+
+    
+    
+    17. Accessibility Guidelines
+
+    High contrast text
+
+    Keyboard navigation support
+
+    ARIA labels for key elements
+
+    
+
+    
+    
+    18. Future Design Extensions
+
+    Mobile app design
+
+    White label themes
+
+    Custom branding per business
+
+    
+
+    
+    
+    19. Asset Export Recommendations
+
+    Export logo as: - SVG - PNG (Transparent) - Favicon (32x32)
+
+    
+
+    
+    
+    20. Design Tools Recommendation
+
+    Figma
+
+    Adobe Illustrator
+
+    Tailwind UI for component inspiration
+
+    
+
+    
+    
+    End of ServiHub Design &amp; Brand Guidelines
+
+    
+    
+      
+        
+                
+        
+        
+              
+      
+    
+  
+
+
