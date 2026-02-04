@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -44,5 +45,20 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function businesses()
+    {
+        return $this->belongsToMany(Business::class);
+    }
+
+    public function staffProfile()
+    {
+        return $this->hasOne(Staff::class);
+    }
+
+    public function bookings()
+    {
+        return $this->hasMany(Booking::class, 'client_id');
     }
 }

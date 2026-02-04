@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Booking extends Model
+{
+    protected $fillable = ['business_id', 'service_id', 'staff_id', 'client_id', 'start_time', 'end_time', 'status', 'notes'];
+
+    protected $casts = [
+        'start_time' => 'datetime',
+        'end_time' => 'datetime',
+    ];
+
+    public function business()
+    {
+        return $this->belongsTo(Business::class);
+    }
+
+    public function service()
+    {
+        return $this->belongsTo(Service::class);
+    }
+
+    public function staff()
+    {
+        return $this->belongsTo(Staff::class);
+    }
+
+    public function client()
+    {
+        return $this->belongsTo(User::class, 'client_id');
+    }
+}
